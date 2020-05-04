@@ -1,6 +1,6 @@
-print("hello world")
+name = input("Enter name ")
 
-def add(num1 , num2):
-    return num1 + num2
-
-print(add(3,3))
+if name == "izhar":
+    print(f"welcome {name}")
+else:
+    print("i don't know you ")
