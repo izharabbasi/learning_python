@@ -20,8 +20,10 @@
 
 # print(first_letter)
 
-num = [n**2 for n in range(1,11)]
-print(num)
+# num = [n**2 for n in range(1,11)]
+# print(num)
 
+names = ["izhar","shery","ahmed"]
 
-
+char1 = [name[0].title() for name in names]
+print(char1)
